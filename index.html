@@ -1,138 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Khaki Jonathan Mizrahi</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Description" lang="en" content="open source x/html and css templates">
-<meta name="author" content="mlp design">
-<meta name="robots" content="index, follow">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>iPortfolio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-<!--start wrapper-->
-<div id="wrapper">
 
-<!--start body-->
-<div id="body">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-<!--start header-->
-<div id="banner">
-<img id="img1" src="mypicture.jpg">
-<h1>Jonathan Mirahi<em>QA Automation dev</em></h1>
-<p>The fluid, responsive, HTML5, CSS only (image-free) version of the classic free template by MLP Design.</p>
-<!-- menu -->
-<label for="show-menu" class="responsive">&#9776;</label>
-<input type="checkbox" id="show-menu" role="button">
-<ul id="topnav">
-<li><a class="active">Home</a></li>
-<li><a href="#">Page 2</a></li>
-<li><a href="#">Page 3</a></li>
-<li><a href="#">Page 4</a></li>
-<li><a href="#">Page 5</a></li>
-</ul>
-<!-- end menu -->
-</div>
-<!--end of header-->
-	<!--start sidebar-->
-	<div id="sidebar">
-		<h2>About</h2>
-		<p>Confident, creative and technical with a zest and talent for all things involving technology and the arts. If you use it, you must retain the "Template Design by MLP Design" tag and link in place. You MAY NOT use the templates in adult or adult-oriented websites!</p>
-		<p>If you wish to use a template for commercial purposes or wish to remove the credit tag and link, please contact us.</p>
-		<h2>Categories</h2>
-		<ul>
-			<li><a href="#">Suspendisse potenti</a></li>
-			<li><a href="#">Proin sed pede</a></li>
-   			<li><a href="#">Maecenas ac nisi</a></li>
-   			<li><a href="#">Curabitur eget enim id</a></li>
-   			<li><a href="#">Nunc metus nisl dapibus</a></li>
-   			<li><a href="#">Fusce pellentesque odio sed</a></li>
-		</ul>
-		<h2>Archives</h2>
-		<ul>
-			<li><a href="#">2017-Sep</a></li>
-			<li><a href="#">2017-Aug</a></li>
-			<li><a href="#">2017-Jul</a></li>
-			<li><a href="#">2017-Jun</a></li>
-			<li><a href="#">2017-May</a></li>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-		</ul>
-		<h2>Links</h2>
-		<ul>
-			<li><a href="http://twitter.com/mlpdesign">Follow me on Twitter</a></li>
-			<li><a href="http://www.mlpdesign.net">MLP Design</a></li>
-		</ul>		
-	</div>
-	<div class="clear"></div>
-	<!--end of sidebar-->
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Jonathan Mizrahi</a></h1>
+      </div>
 
-	<!--start containter-->
-	<div id="container">
-			
-		<!--start content-->
-		<div id="content">
-			<!--post item-->
-			<div class="item">
-				<h1>To do portfolio -</h1>
-				<p><b><u>Arrange set of skills</u></b></u></b> - Notepad++, HTML, CSS, DevTools, JAVA, Selenium, Eclipse, Jira bug tracking and test executions, </p>
-				<p><b><u>Personal notes</u></b> - <br>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Automation project</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Jonathan Mizrahi</h1>
+      <p>I'm <span class="typed" data-typed-items="an Automation engineer, a Tech enthusiast, a Musician and Bass player"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am an automation engineer, with a passion for live music and technology.<br>I am also a bass player with hands on experience in performing, composing and producing with other band members.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Automation and QA engineer</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1993</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>050-6542026</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kfar-Yona Israel</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>jonmiz12@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JAVA <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+		  <div class="row">
+			<div class="col-lg-6" data-aos="fade-up" style="text-align: center;">
+				<h3 class="resume-title">Resume .docx download</h3>
+				<div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" width="auto">
+					<p>
+						<a href="CV\EnglishAutomationCV.docx" target="_blank">
+						<h3 style="display: inline-block; text-align: center;"><b> English resume</b></h3>
+						<img src="assets\img\downloadicon.png" style="width: 50px; display:inline-block; vertical-align: middle;">
+						</a>
+					</p>
+					  <br>
+					<p>
+						<a href="CV\HebrewAutomationCV.docx" target="_blank">
+						<h3 style="display: inline-block; text-align: center;"><b> Hebrew resume</b></h3>
+						<img src="assets\img\downloadicon.png" style="width: 50px; display:inline-block; vertical-align: middle;">
+						</a>
+					</p>
+				</div>
+			</div>
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Jonathan Mizrahi</h4>
+              <p><em>Innovative and deadline-driven QA engineer with 1.5+ years of experience executing and planning tests for a leading gaming company. Self driven employee with great temawork skills.</em></p>
+              <ul>
+                <li>Kfar-Yona</li>
+                <li>050-6542026</li>
+                <li>jonmiz12@gmail</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title"></h3>
+            <div class="resume-item">
+              <h4>High School Studies</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>Israel Galili High School, Kfar-Sava</em></p>
+              <p>Finished high school with a full matriculation certificate and music extension.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Army Service</h4>
+              <h5>2011-2014</h5>
+              <p><em>Israel Air Force - Full servie as an aerial status operator</em></p>
+              <p></p>
+            </div>
+			<div class="resume-item">
+              <h4>Post army trip and jobs experiences</h4>
+              <h5>2015-2018</h5>
+              <p><em>Security officer, Customer service representative, Restaurant manager, Stage construction worker, etc.</em></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Python course</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>Udemy</em></p>
+              <ul>
+                <li>Knowledge and experience with modules, packages, object-oriented programming, methods, functions, statements and Errors and exceptions handling.</li>
+                <li>Successfully completed 2 projects – Tic Tac Toe game & Airline reservation system.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Quality Assurance graduate</h4>
+              <h5>2020 - 2021</h5>
+              <p><em>HackerU college</em></p>
+              <ul>
+                <li>Experience in writing STP, STD, STR; Basic knowledge of HTML and CSS. </li>
+                <li>Experience with SQL up to complex queries level; Experience with QC and Jira throughout all test stages.</li>
+                <li>Basic knowledge and hands-on experience with various types of hardware from IoT to servers.</li>
+              </ul>
+            </div>
+			<div class="resume-item">
+			  <h4>QA Automation engineer graduate</h4>
+			  <h5>2020 - 2021</h5>
+			  <p><em>HackerU college</em></p>
+			  <ul>
+				<li>Java oriented automation tests. Writing projects in different platforms - Maven, TestNG and Junit.</li>
+				<li>Developing automation with Selenium libraries. Managing projects and versions using GIT and TFS.</li>
+				<li>Load & stress tests using Jmeter; Automation design patterns. Enclosing projects and running scheduled codes.</li>
+				<li>Networking – network structures, packets, protocols, ports and more.</li>
+			  </ul>
+			</div>
+			<div class="resume-item">
+			  <h4>Performance improvement analyst</h4>
+			  <h5>2021</h5>
+			  <p><em>Egged Tours</em></p>
+			  <ul>
+				<li>Performing deep analysis on tours that exceeded the ministry of transportation guidelines.</li>
+				<li>Responsible for the company's tour quality and preventing fines from the ministry of transportation.  </li>
+				<li>Gathering analysis findings and producing statistic reports using Excel and Excel formula.</li>
+			  </ul>
+			</div>
+			<div class="resume-item">
+			  <h4>Manual QA engineer</h4>
+			  <h5>2021 - Present day</h5>
+			  <p><em>Leading gaming company, developing casual mobile games</em></p>
+			  <ul>
+				<li>Experience with client and server automation tools (Test Complete and Load Mill).</li>
+				<li>Writing tests of various types – Functional, server, acceptance performance and more.</li>
+				<li>Reproduction of complex bugs while building a strong server-client orientation.</li>
+				<li>Concentration and handling of issues in production.</li>
+				<li>Regular work and communication with Dev, Product and LiveOps teams</li>
+			  </ul>
+			</div>
+			<div class="resume-item">
+			  <h4>QA Automation engineer graduate</h4>
+			  <h5>2023</h5>
+			  <p><em>Gal Matalon Autmation</em></p>
+			  <ul>
+			  <li>Project infrastructure</li>
 				<ul>
-					<li><b>My touch with music</b> - Music's always been a great passion for me. Since my 20's, I have participated in recording,composing and performing with a few bands.</li>
-					<li><b>How I got to QA</b> - In 2020, when Covid19 hit the job market, I wanted to find a reliable source of income while challenging myself and doing something I like.
-					<br>After considering the options, Quality assurance (with automation in mind) was the choice.
-					<br>During my first automation course I realized I want to excel in this field.</li>
-					<li>LinkedIn and CV -
-					<br><a href="https://www.linkedin.com/in/jonmiz12/">LinkedIn</a>
-					<br><a href="cv/(א) קוח יהונתן מזרחי.docx">Hebrew resume</a>
-					<br><a href="cv/(A) CV - Jonathan Mizrahi.docx">English resume</a></li>
-					
-				</ul></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<blockquote><p>Proin congue risus eget eros. Morbi ornare, enim ac convallis pellentesque, metus arcu sagittis diam, nec fringilla nunc eros id arcu. Nunc sagittis ligula id justo. Nam et pede a mi facilisis consequat. Quisque tincidunt, turpis vel commodo lacinia, arcu odio bibendum metus, eget elementum ipsum eros sit amet velit.</p></blockquote>
-				<ul>
-					<li>Mauris in lacus</li>
-					<li>Sed ullamcorper bibendum libero</li>
-					<li>Morbi fringilla imperdiet lorem</li>
-					<li>In cursus mi posuere augue</li>
+					<li>Maven, Jenkins, Allure, Git, TestNG</li>
+					<li>Page object model, Page object factory, Base page, Base test</li>
 				</ul>
-				<span>17 March 2017 @ 1:28 PM | <a href="#">0 Comment(s)</a> | Posted by <a href="#">webmasterneo</a></span>
+				<li>Build project in Jenkins using Git</li>
+				<li>Jenkins - Build triggers, Git Integration, Slave</li>
+				<li>DDT - Read from excel to a DataProvider</li>
+				<li>Maven - Dependency managment and project build and execution</li>
+				<li>TestNG - annotations (before, after, setup, teardown...), testng.xml test managment</li>
+				<li>Git source control - Integration with itelliJ, GitHub desktop, Jenkins integration</li>
+				<li>HTML and CSS - Bootstrap, SemanticsUI</li>
+			  </ul>
 			</div>
-			<!--another post item-->
-			<div class="item">
-				<h1>Space fillers</h1>
-				<p>Donec non dui. Morbi fringilla imperdiet lorem. Fusce risus diam, rutrum eu, hendrerit et, accumsan non, neque. Fusce vitae pede ut massa sodales mattis. Nulla sed justo. Integer nec sem vel tellus tempor gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc faucibus. Nullam nulla ipsum, accumsan sed, tempus sed, adipiscing a, metus. Curabitur varius commodo eros.</p>
-				<span>17 March 2017 @ 6:24 PM | <a href="#">0 Comment(s)</a> | Posted by <a href="#">webmasterneo</a></span>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 style="display: inline-block;">Automation Project</h2><a href="https://github.com/jonmiz12/AutomationProject.git" target="_blank"><img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin-left: 30px;"></a>
+		  <div class="row">
+			  <div class="section-title">
+				  <p>The project automates tests on the site <a href="https://www.saucedemo.com/" target="_blank">saucedemo.com</a>.
+				  <br>Saucedemo is a site that allows users to practice browser automated testing.
+				  </p>
+			  </div>
+ 		  </div>
+		  <div class="row">
+			<div class="col-lg-6 aos-init aos-animate" style="width: auto;">
+			  <h3>Test scripts</h3>
+			  <p>
+				  <ul>
+					<li>Login</li>
+					<li>Add products</li>
+					<li>Remove products</li>
+					<li>Buy products</li>
+					<li>Continue shopping</li>
+					<li>Checkout information Fields</li>
+					<li>Price calculation</li>
+					<li>Social media links</li>
+				  </ul>
+			  </p>
+			<h4><a href="JonathanSTDAutomationProject.xlsx">STD download</a></h4>
 			</div>
-			<!--end of another post item-->			
-		</div>
-		<!--end of content-->
+			<div class="col-lg-6 aos-init aos-animate">
+				<video width="auto" height="280" controls>
+					<source src="BuyProductsRun.mp4" type="video/mp4">
+				</video>
+			</div>
+		  </div>
+		  <br>
+			<center>
+			  <img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin: 30px;">
+			  <a href="https://github.com/jonmiz12/AutomationProject.git" target="_blank"><h3 style="display: inline-block;">Click here to see the project in GitHub</h3></a>
+			  <img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin: 30px;">
+			</center>
+		  <div class="row">
+		  <h4><center>Allure reports after running all above test scripts</center></h4>
+		  <br><br>
+			<div class="col-lg-6 aos-init aos-animate">
+				<img src="assets\img\allure-report.jpg" width="350" style="  border-radius: 25px; border: 10px solid #73AD21;">
+			</div>
+			<div class="col-lg-6 aos-init aos-animate">
+				<img src="assets\img\allure-report-tc.jpg" width="350" style="  border-radius: 25px; border: 10px solid #73AD21;">
+			</div>
+		  </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
 
-	</div>
-	<!--end of container-->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
 
-</div>
-<!--end of body-->
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
 
-	<!--start footer-->
-	<div id="footer">
-		<span class="left">2017 &copy; Copyright <a href="#">Your Name</a>. All rights reserved.</span>
-		<span class="right"><a href="#">Contact</a> | <a href="#">Site Map</a></span>
-		<p class="show-footer">2017 &copy; Copyright <a href="#">Your Name</a>. All rights reserved.<br /><a href="#">Contact</a> | <a href="#">Site Map</a></p>
-	</div>
-	<!--end of footer-->	
+        <div class="row" data-aos="fade-in">
 
-</div>
-<!--end of wrapper-->
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Kfar-Yona</p>
+              </div>
 
-	<!--start credits-->
-	<!--//Under CC-NC 3.0, this portion must be left intact and must not be hidden.//-->
-	<div id="credits">
-	<span><a href="http://www.mlpdesign.net" title="CSS &amp; HTML by MLP Design.net">CSS &amp; HTML</a> by MLP Design<br />Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0</a>.</span>
-	</div>
-	<!--end of credits-->
-	
+              <div class="email">
+				<a href="mailto:jonmiz12@gmail">
+					<i class="bi bi-envelope"></i>
+					<h4>Email:</h4>
+					<p>jonmiz12@gmail</p>
+				</a>
+              </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>050-6542026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
-
