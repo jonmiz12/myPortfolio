@@ -1,0 +1,82 @@
+ul.checkmark li {
+  font-size: 16px;
+  margin-bottom: 1em;
+  list-style-type: none;
+  padding: 0.25em 0 0 2.5em;
+  position: relative;
+  font-size: 25px;
+}
+ul.checkmark li:before {
+  content: " ";
+  display: block;
+  border: solid 0.8em #00BA30;
+  border-radius: 0.8em;
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 0.5em;
+  top: 40%;
+  margin-top: -0.5em;
+}
+ul.checkmark li:after {
+  content: " ";
+  display: block;
+  width: 0.4em;
+  height: 0.7em;
+  border: solid #fff;
+  border-width: 0 0.2em 0.2em 0;
+  position: absolute;
+  left: 1.1em;
+  top: 45%;
+  margin-top: -0.2em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#skills h3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#resume .title {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.hero-container {
+	width: 80%;
+}
+
+.resume-download {
+	text-align: center;
+	color: white;
+	width: 290px;
+	border: solid black;
+	background: #4085FF;
+	border-radius: 25px;
+}
+
+.resume-download h3 {
+	display: inline-block;
+}
+
+.resume-download a:link {
+	color: white;
+}
+
+.info {
+	width: 70%;
+}
+
+.project-item {
+	margin: 30px 0px 30px 0px;
+}
+
+.project-item video {
+	display: block;
+	width: 80%;
+}
+
+#services 
