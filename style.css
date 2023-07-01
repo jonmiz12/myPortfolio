@@ -40,14 +40,18 @@ ul.checkmark li:after {
 	margin-bottom: 1em;
 }
 
+#skills .section-title {
+	padding-bottom: 0em;
+}
+
 #resume .title {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
-
 .resume-download {
 	text-align: center;
+	padding-top: 5px;
 	color: white;
 	width: 290px;
 	border: solid black;
@@ -76,4 +80,28 @@ ul.checkmark li:after {
 	width: 80%;
 }
 
-#services 
+#project-link a:visited {
+	color: white;
+}
+
+#project-link a:link {
+	color: white;
+}
+
+#project-link {
+	font-size: 20px;
+	padding-right: 25px;
+	padding-top: 10px;
+	color: white;
+	border: solid black;
+	background: #4085FF;
+	border-width: 5px;
+	border-radius: 40px;
+	margin-top: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+.hero-container {
+	margin: 90%:
+}
