@@ -57,9 +57,9 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+		  <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Automation project</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Automation project</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -68,17 +68,71 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+	<div id="scroll-text"><a href="#services"><b>&#62 Click to see my automation project &#60</b></a></div>
     <div class="hero-container" data-aos="fade-in">
       <h1>Jonathan Mizrahi</h1>
       <p>I'm <span class="typed" data-typed-items="an automation engineer, a tech enthusiast, a musician and Bass player"></span></p>
     </div>
-		<div id="scroll">
-			<p class="scroll-text">Click to see my automation project</p>
-			<a href="#services"><div class="down-arrow"></div></a>
-		</div>
   </section><!-- End Hero -->
 
   <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+          <h2 style="display: inline-block;">Automation Project</h2><a href="https://github.com/jonmiz12/AutomationProject.git" target="_blank" title="Open GitHub repository"><img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin-left: 30px;"></a>
+		  <div class="row">
+			  <div class="section-title">
+				  <p>The project automates tests on the site <a href="https://www.saucedemo.com/" target="_blank">saucedemo.com</a>.
+				  <br>Saucedemo is a site that allows users to practice browser automated testing.
+				  </p>
+			  </div>
+ 		  </div>
+		  <div class="row">
+			<div class = "project-item">
+			  <h3>Test scripts</h3>
+			  <p>
+				  <ul>
+					<li>Login</li>
+					<li>Add products</li>
+					<li>Remove products</li>
+					<li>Buy products</li>
+					<li>Continue shopping</li>
+					<li>Checkout information Fields</li>
+					<li>Price calculation</li>
+					<li>Social media links</li>
+				  </ul>
+			  </p>
+			<h4 class = "project-item"><a href="JonathanSTDAutomationProject.xlsx">STD download</a></h4>
+			</div>
+			<div class = "project-item">
+				<video controls>
+					<source src="TestsVideo.mp4" type="video/mp4">
+				</video>
+			</div>
+		  </div>
+		  <br>
+		  <div class="github-link">
+		  <center>
+			  <img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin: 30px;">
+			  <a href="https://github.com/jonmiz12/AutomationProject.git" target="_blank"><h3 style="display: inline-block;">GitHub Link</h3></a>
+			  <img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin: 30px;">
+		  </center>
+		  </div>
+		  <div class="row">
+		  <h4><center>Allure reports after running all above test scripts</center></h4>
+		  <br><br>
+			<div class="col-lg-6 aos-init aos-animate">
+				<img src="assets\img\allure-report.jpg" width="350" style="  border-radius: 25px; border: 10px solid #73AD21;">
+			</div>
+			<div class="col-lg-6 aos-init aos-animate">
+				<img src="assets\img\allure-report-tc.jpg" width="350" style="  border-radius: 25px; border: 10px solid #73AD21;">
+			</div>
+		  </div>
+
+      </div>
+    </section><!-- End Services Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -207,9 +261,10 @@
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
-
+		
         <div class="section-title">
           <h2>Resume</h2>
+		  <!--
 		  <div>
 			<div>
 				<h3 class="title">Resume .docx download</h3>
@@ -234,6 +289,7 @@
 				</div>
 			</div>
 		  </div>
+		  -->
         </div>
 
         <div class="row">
@@ -249,25 +305,29 @@
 					<li>Maven, Jenkins, Allure, Git, TestNG</li>
 					<li>Page object model, Page object factory, Base page, Base test</li>
 				</ul>
-				<li>Build project in Jenkins using Git</li>
-				<li>Jenkins - Build triggers, Git Integration, Slave</li>
-				<li>DDT - Read from excel to a DataProvider</li>
-				<li>Maven - Dependency managment and project build and execution</li>
-				<li>TestNG - annotations (before, after, setup, teardown...), testng.xml test managment</li>
-				<li>Git source control - Integration with itelliJ, GitHub desktop, Jenkins integration</li>
-				<li>HTML and CSS - Bootstrap, SemanticsUI</li>
+				<li>Build project in Jenkins using Git.</li>
+				<li>Jenkins - Build triggers, Git Integration, Slave.</li>
+				<li>DDT - Read from excel to a DataProvider.</li>
+				<li>Maven - Dependency managment and project build and execution.</li>
+				<li>TestNG - annotations (before, after, setup, teardown...), testng.xml test managment.</li>
+				<li>Git source control - Integration with itelliJ, GitHub desktop, Jenkins integration.</li>
+				<li>HTML and CSS - Bootstrap, SemanticsUI.</li>
+				<li>Mobile – Appium, capabilities, AVD, ADB through USB\wifi.</li>
 			  </ul>
 			</div>
 			<div class="resume-item">
 			  <h4>Manual QA engineer</h4>
-			  <h5>2021 - Present day</h5>
-			  <p><em>Leading gaming company, developing casual mobile games</em></p>
+			  <h5>2021 - 2023</h5>
+			  <p><em>BeachBum</em></p>
 			  <ul>
 				<li>Experience with client and server automation tools (Test Complete and Load Mill).</li>
-				<li>Writing tests of various types – Functional, server, acceptance performance and more.</li>
+				<li>Writing and executing tests of various types – GUI, Functional, non-Functional, Sanity, Compatibility, Usability, Server, resilience and more.</li>
 				<li>Reproduction of complex bugs while building a strong server-client orientation.</li>
 				<li>Concentration and handling of issues in production.</li>
-				<li>Regular work and communication with Dev, Product and LiveOps teams</li>
+				<li>Matching and implementing of test management tools (Xray, PractiTest, TestRail and more).</li>
+				<li>Implementation and usage of network simulation tool - CharlesProxy using AnyDesk.</li>
+				<li>Agile development model.</li>
+				<li>Regular work and communication with Dev, Product and LiveOps teams.</li>
 			  </ul>
 			</div>
 			<div class="resume-item">
@@ -345,63 +405,6 @@
 
       </div>
     </section><!-- End Resume Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-          <h2 style="display: inline-block;">Automation Project</h2><a href="https://github.com/jonmiz12/AutomationProject.git" target="_blank" title="Open GitHub repository"><img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin-left: 30px;"></a>
-		  <div class="row">
-			  <div class="section-title">
-				  <p>The project automates tests on the site <a href="https://www.saucedemo.com/" target="_blank">saucedemo.com</a>.
-				  <br>Saucedemo is a site that allows users to practice browser automated testing.
-				  </p>
-			  </div>
- 		  </div>
-		  <div class="row">
-			<div class = "project-item">
-			  <h3>Test scripts</h3>
-			  <p>
-				  <ul>
-					<li>Login</li>
-					<li>Add products</li>
-					<li>Remove products</li>
-					<li>Buy products</li>
-					<li>Continue shopping</li>
-					<li>Checkout information Fields</li>
-					<li>Price calculation</li>
-					<li>Social media links</li>
-				  </ul>
-			  </p>
-			<h4 class = "project-item"><a href="JonathanSTDAutomationProject.xlsx">STD download</a></h4>
-			</div>
-			<div class = "project-item">
-				<video controls>
-					<source src="BuyProductsRun.mp4" type="video/mp4">
-				</video>
-			</div>
-		  </div>
-		  <br>
-		  <div class="github-link">
-		  <center>
-			  <img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin: 30px;">
-			  <a href="https://github.com/jonmiz12/AutomationProject.git" target="_blank"><h3 style="display: inline-block;">Click here to see the project in GitHub</h3></a>
-			  <img src="assets\img\githubicon.png" style="width: 50px; display: inline-block; middle; margin: 30px;">
-		  </center>
-		  </div>
-		  <div class="row">
-		  <h4><center>Allure reports after running all above test scripts</center></h4>
-		  <br><br>
-			<div class="col-lg-6 aos-init aos-animate">
-				<img src="assets\img\allure-report.jpg" width="350" style="  border-radius: 25px; border: 10px solid #73AD21;">
-			</div>
-			<div class="col-lg-6 aos-init aos-animate">
-				<img src="assets\img\allure-report-tc.jpg" width="350" style="  border-radius: 25px; border: 10px solid #73AD21;">
-			</div>
-		  </div>
-
-      </div>
-    </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
