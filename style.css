@@ -130,6 +130,10 @@ ul.checkmark li:after {
 	color: #79dcf2;
 }
 
+#hero a:link {
+	color: #79dcf2;
+}
+
 .down-arrow {
   position: absolute;
   top: calc(100vh - 80px);
